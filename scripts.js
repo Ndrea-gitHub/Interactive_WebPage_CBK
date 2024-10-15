@@ -40,10 +40,12 @@ button.addEventListener('click',function(){
     }
 })
 
-const loc_ion= ()=>{
+const place= ()=>{
 const locations=['Pensylvania ','Philadelphia'];
 const[s,c]=locations;
-console.log(s);
-console.log(c);
+const location='$[s] $[c]';
+return location;
 };
-loc_ion();
+
+module.exports={place};
+//loc_ion();
